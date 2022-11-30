@@ -22,15 +22,25 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 .hero {
-    padding: 4rem 3rem;
+    background-image: url("../assets/mohammad-rahmani-_Fx34KeqIEw1080.jpg");
+    background-position: center;
+    padding: 8rem 3rem;
+    color: #f5f5f5;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.intro,
+h1 {
+    text-shadow: -1px 0px 24px rgb(0, 0, 0);
+}
 h1 {
     text-align: center;
     font-family: "Courgette", cursive;
     font-size: 4rem;
     margin: 0 auto 0.5rem;
-    color: rgb(0, 0, 58);
+    color: white;
 }
 .intro {
     max-width: 700px;

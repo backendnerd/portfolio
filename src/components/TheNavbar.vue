@@ -21,13 +21,16 @@ export default {
 <style scoped>
 .nav ul {
     display: flex;
+    max-width: 600px;
     justify-content: space-between;
+    margin: auto;
 }
 
 .nav {
-    margin: auto;
-    padding: 1rem;
-    max-width: 600px;
+    z-index: 2;
+    background-color: white;
+    padding: 1rem 0;
+    width: 100%;
 }
 
 .nav li {
